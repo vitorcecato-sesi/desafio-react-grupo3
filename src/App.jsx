@@ -17,12 +17,18 @@ import fotoPyetro from "./assets/fotoUsuarioPyetro.png";
 import fotoVitor from "./assets/fotoUsuarioVitorG.png";
 
 /* 🎈 Aqui estamos criando a função "App", para colocar as informações dos PROPS e ser excutado quando o App for iniciado */
+import './App.css'
+import Footer from "./components/Footer"
+import foto from "./assets/gmail.png"
+import foto2 from "./assets/instagram.png"
+import logo from "./assets/logoG3.png"
+
 function App() {
 
   /* 🎈 Aqui estamos retornando o conteúdo do nosso aplicativo, o que vai exibir */
   return (
     <>
-    <Header/>
+      <Header/>
     <section className="meioPagina">
       <main className="elementosCartas">
         <section className="blocoCartas">
@@ -71,7 +77,6 @@ function App() {
         </main>
         <Valores  valor1="União" valor2="Honestidade" valor3="Comprometimento"/>
       </section>
-      
     </>
   )
 }
