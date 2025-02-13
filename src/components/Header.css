@@ -24,22 +24,16 @@ h1 {
     transition: all 1s ease;
 }
 
-img{
-    width: 7vh;
+.imagem {
+    width: 10vw;
+    height: 18vh;
     filter: drop-shadow(0px 0px 12px rgb(85, 85, 85));
     transition: all 1s ease;
 }
 
-img:hover {
+.imagem:hover {
     transform: scale(1.1);
     /* Aumenta o tamanho da imagem */
     transition: all 1s ease;
     /* Tempo de transição */
 }
-
-@media screen and (max-width: 1000px)  {
-    #imagem {
-        width: 10vw;
-        height: 15vh;
-    }
-  }
