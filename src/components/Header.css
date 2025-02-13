@@ -1,0 +1,38 @@
+/* Para formatar a página inteira */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    display: flex;
+    background-color: #CEE741;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: #442b19;
+}
+
+h1 {
+    transition: all 1s ease;
+}
+
+.Header h1:hover {
+    transform: scale(1.1);
+    /* Faz com que, ao passar o mouse por cima do titulo, ele fique destacado */
+    transition: all 1s ease;
+}
+
+img{
+    width: 27vh;
+    filter: drop-shadow(0px 0px 12px rgb(85, 85, 85));
+    transition: all 1s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho da imagem */
+    transition: all 0.5s ease;
+    /* Tempo de transição */
+}
