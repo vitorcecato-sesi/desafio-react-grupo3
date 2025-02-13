@@ -15,8 +15,7 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     background-color: #F1E8BD;
     padding: 1em;
     display: flex;
-    justify-content: space-around; /* Separar  os blocos */
-    font-family: 'Times New Roman', Times, serif;  /* Alterar a fonte do footer inteiro */   
+    justify-content: space-around; /* Separar  os blocos */   
     height: 14vh;
 }
 
