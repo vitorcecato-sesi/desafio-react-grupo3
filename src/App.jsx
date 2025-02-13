@@ -39,19 +39,19 @@ function App() {
               // Aqui estamos passando o nome como propriedade para o componente "Perfil"
               nome="Laura Betti Migliaccio"
               // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
-              hobbies="Ouvir música e ver filmes/séries."
+              hobbies="Os meus hobbies são: Ouvir música e ver filmes/séries."
             />
 
             <Perfil 
               foto={fotoPerfilLucas} 
               nome="Lucas Casagrande da Silva" 
-              hobbies="Praticar vôlei, jogar jogos online e assistir séries." 
+              hobbies="Os meus hobbies são: Praticar vôlei, jogar jogos online e assistir séries." 
             />
 
             <Perfil 
               foto={fotoPerfilMilena} 
               nome="Milena Oliveira Souza" 
-              hobbies="Escutar música, ver filmes e séries, estudar matemática e cozinhar." 
+              hobbies="Os meus hobbies são: Escutar música, ver filmes e séries, estudar matemática e cozinhar." 
             />
           </section>
 
@@ -65,13 +65,13 @@ function App() {
             <Perfil 
               foto={fotoPyetro} 
               nome="Pyetro Joaquim Taborda Nunes" 
-              hobbies="Os meus hobbies são: Jogar jogos onlines, ouvir música e cozinhar" 
+              hobbies="Os meus hobbies são: Jogar jogos online, ouvir música e cozinhar" 
             />
 
             <Perfil 
               foto={fotoVitor} 
               nome="Vitor Geraldo Cecato" 
-              hobbies="Meus hobbies são: jogar jogos onlines, programar e nadar." 
+              hobbies="Meus hobbies são: jogar jogos online, programar e nadar." 
             />
           </section>
         </main>
