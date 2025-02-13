@@ -17,11 +17,16 @@ gap: 1vw;
 width: 20vw;
 height: auto;
 text-align: center;
+justify-content: center;
+align-items: center;
 border-top-right-radius: 1vw;
 border-bottom-right-radius: 1vw;
+gap: 1vw;
 }
 
+
 .fotoPerfil {
+    padding: 1vw;
     width: 7vw;
     height: auto;
     background-color: #B66E3F;
