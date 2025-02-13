@@ -22,7 +22,9 @@ function Footer(props) {
 
         <section className="informacao-resposavel" >
             <p>{props.texto}</p>
+            <img className='imglogo' src={props.imglogo}/>
         </section>
+
 
       </footer>
         
