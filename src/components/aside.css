@@ -14,8 +14,6 @@
 }
 
 ul{
-  /* Remove a formatação padrão da lista */
-  list-style: none;
   /* Remove o espaçamento interno da lista */
   padding: 0;
   display: flex;
