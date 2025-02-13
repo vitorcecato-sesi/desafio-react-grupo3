@@ -9,7 +9,7 @@ function Footer(props) {
         <section className="informacoes-contatos">
 
             <section className='bloco-img1'>
-            <img src={props.imagem1}/>
+            <img className='img' src={props.imagem1}/>
             <h3 className='email' >{props.email}</h3>
             </section>
 

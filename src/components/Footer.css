@@ -40,7 +40,8 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
+    gap: 0.5em; 
 }
 
 .bloco-img2{
@@ -48,7 +49,8 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-right: 6.2em  
+    padding-right: 6.2em;
+    gap: 1.1em;  
 }
 
 .email{
