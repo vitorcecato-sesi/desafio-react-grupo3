@@ -1,17 +1,16 @@
 .lado{
-
-  position: fixed;
-  top: 7vw;
-  right: 5vw;
   /* tamanho da caixa */
   width: 13vw;
   height: 70vh;
   background-color: #B66E3F;
   padding: 1vw;
-  border: 3px solid black;
+  border: 0.2em solid black;
   border-radius: 2em;
   /* Alinha os elementos internos verticalmente */
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ul{

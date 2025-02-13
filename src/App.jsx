@@ -5,6 +5,7 @@ import "./App.css";
   /* 🎈 Aqui estamos importando o componente "Perfil", que vai trazar a function(props) para colocar as informações aqui */
   import Perfil from "./components/Perfis";
   import Header from "./components/Header";
+  import Valores from "./components/aside";
 //.
 
 /* 🎈 Aqui estamos importando as imagens que serão usadas nos perfis */
@@ -22,53 +23,54 @@ function App() {
   return (
     <>
     <Header/>
-    <main className="elementosCartas">
-      <section className="blocoCartas">
-        {/* 🎈 Aqui estamos chamando o componente "Perfil" e passando as informações de cada pessoa */}
-        <Perfil
-          // Aqui estamos passando a foto como propriedade para o componente "Perfil"
-          foto={fotoPerfilLauraB}
-          // Aqui estamos passando o nome como propriedade para o componente "Perfil"
-          nome="Laura Betti Migliaccio"
-          // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
-          hobbies="Ouvir música e ver filmes/séries."
-        />
+    <section className="meioPagina">
+      <main className="elementosCartas">
+        <section className="blocoCartas">
+          {/* 🎈 Aqui estamos chamando o componente "Perfil" e passando as informações de cada pessoa */}
+          <Perfil
+            // Aqui estamos passando a foto como propriedade para o componente "Perfil"
+            foto={fotoPerfilLauraB}
+            // Aqui estamos passando o nome como propriedade para o componente "Perfil"
+            nome="Laura Betti Migliaccio"
+            // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
+            hobbies="Ouvir música e ver filmes/séries."
+          />
 
-        <Perfil 
-          foto={fotoPerfilLucas} 
-          nome="Lucas Casagrande da Silva" 
-          hobbies="Praticar vôlei, jogar jogos online e assistir séries." 
-        />
+          <Perfil 
+            foto={fotoPerfilLucas} 
+            nome="Lucas Casagrande da Silva" 
+            hobbies="Praticar vôlei, jogar jogos online e assistir séries." 
+          />
 
-        <Perfil 
-          foto={fotoPerfilMilena} 
-          nome="Milena Oliveira Souza" 
-          hobbies="Escutar música, ver filmes e séries, estudar matemática e cozinhar." 
-        />
+          <Perfil 
+            foto={fotoPerfilMilena} 
+            nome="Milena Oliveira Souza" 
+            hobbies="Escutar música, ver filmes e séries, estudar matemática e cozinhar." 
+          />
+        </section>
+
+        <section className="blocoCartas">
+          <Perfil 
+            foto={fotoPietro} 
+            nome="Pietro Melle Michelin" 
+            hobbies="Os meus hobbies são: Praticar esportes" 
+          />
+
+          <Perfil 
+            foto={fotoPyetro} 
+            nome="Pyetro Joaquim Taborda Nunes" 
+            hobbies="Os meus hobbies são: Jogar jogos onlines, ouvir música e cozinhar" 
+          />
+
+          <Perfil 
+            foto={fotoVitor} 
+            nome="Vitor Geraldo Cecato" 
+            hobbies="Meus hobbies são: jogar jogos onlines, programar e nadar." 
+          />
+        </section>
+        </main>
+        <Valores  valor1="Valores" valor2="Barigandandadnanda" valor3="babababab"/>
       </section>
-
-      <section className="blocoCartas">
-        <Perfil 
-          foto={fotoPietro} 
-          nome="Pietro Melle Michelin" 
-          hobbies="Os meus hobbies são: Praticar esportes" 
-        />
-
-        <Perfil 
-          foto={fotoPyetro} 
-          nome="Pyetro Joaquim Taborda Nunes" 
-          hobbies="Os meus hobbies são: Jogar jogos onlines, ouvir música e cozinhar" 
-        />
-
-        <Perfil 
-          foto={fotoVitor} 
-          nome="Vitor Geraldo Cecato" 
-          hobbies="Meus hobbies são: jogar jogos onlines, programar e nadar." 
-        />
-      </section>
-      </main>
-      
-      <Valores  valor1="Valores" valor2="Barigandandadnanda" valor3="babababab"/>
       
     </>
   )

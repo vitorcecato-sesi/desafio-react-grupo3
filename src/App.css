@@ -6,7 +6,15 @@
   /* FlexBox */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
+
+.meioPagina {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 
 .elementosCartas {
   display: flex;
