@@ -2,3 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+.container-cartoes {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}

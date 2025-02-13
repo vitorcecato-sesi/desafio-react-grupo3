@@ -11,25 +11,32 @@
 display: flex;
 flex-direction: column;
 background-color: #F2E5B8;
-width: 15vw;
-height: 10vw;
+justify-content: center;
+align-items: center;
+gap: 1vw;
+width: 20vw;
+height: auto;
 text-align: center;
 border-top-right-radius: 1vw;
 border-bottom-right-radius: 1vw;
 }
 
 .fotoPerfil {
-    width: 10vw;
-    height: 10vw;
+    width: 7vw;
+    height: auto;
     background-color: #B66E3F;
+    padding: 1vw;
     border-top-left-radius: 1vw;
     border-bottom-left-radius: 1vw;
 }
 
 .nome {
     font-size: 1.5em;
+    margin: 0;
 }
 
 .hobbies {
-    font-size: 1 em;
+    font-size: 1em;
+    margin: 0;
+    width: 15vw;
 }
