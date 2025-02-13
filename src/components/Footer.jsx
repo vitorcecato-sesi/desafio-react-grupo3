@@ -7,8 +7,17 @@ function Footer(props) {
       <footer className="footer">
 
         <section className="informacoes-contatos">
-            <h3>{props.email}</h3>
-            <h3>{props.instagram}</h3>
+
+            <section className='bloco-img1'>
+            <img src={props.imagem1}/>
+            <h3 className='email' >{props.email}</h3>
+            </section>
+
+            <section className='bloco-img2'>
+            <img src={props.imagem2}/>
+            <h3 className='instagram'>{props.instagram}</h3>
+            </section>
+
         </section>
 
         <section className="informacao-resposavel" >

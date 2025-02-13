@@ -1,12 +1,14 @@
 import './App.css'
 import Footer from "./components/Footer"
+import foto from "./assets/gmail.png"
+import foto2 from "./assets/instagram.png"
 
 function App() {
 
   return (
     <>
       
-      <Footer email="vitor.cecatosesi@gmail.com" instagram="@vitorgcecato" texto="O líder Vitor Geraldo Cecato é responsável pelo projeto referente ao conteúdo PROPS."/>
+      <Footer imagem1={foto} email="vitor.cecatosesi@gmail.com" imagem2={foto2} instagram="@vitorgcecato" texto="O Vitor Geraldo Cecato é o responsável pelo projeto PROPS, cuidando da coordenação e garantindo que o conteúdo seja de qualidade e esteja sempre no caminho certo."/>
     </>
   )
 }
