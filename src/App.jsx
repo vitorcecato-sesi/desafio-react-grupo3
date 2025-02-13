@@ -68,6 +68,8 @@ function App() {
       </section>
       </main>
       
+      <Valores  valor1="Valores" valor2="Barigandandadnanda" valor3="babababab"/>
+      
     </>
   )
 }

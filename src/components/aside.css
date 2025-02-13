@@ -1,0 +1,33 @@
+.lado{
+
+  position: fixed;
+  top: 7vw;
+  right: 5vw;
+  /* tamanho da caixa */
+  width: 13vw;
+  height: 70vh;
+  background-color: #B66E3F;
+  padding: 1vw;
+  border: 3px solid black;
+  border-radius: 2em;
+  /* Alinha os elementos internos verticalmente */
+  align-items: center;
+}
+
+ul{
+  /* Remove a formatação padrão da lista */
+  list-style: none;
+  /* Remove o espaçamento interno da lista */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  /* Alinha os elementos da lista verticalmente */
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  padding: 1em;
+  text-align: center;
+}
