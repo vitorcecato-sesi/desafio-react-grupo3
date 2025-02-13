@@ -4,6 +4,7 @@ import "./App.css";
 // Componentes:
   /* 🎈 Aqui estamos importando o componente "Perfil", que vai trazar a function(props) para colocar as informações aqui */
   import Perfil from "./components/Perfis";
+  import Header from "./components/Header";
 //.
 
 /* 🎈 Aqui estamos importando as imagens que serão usadas nos perfis */
@@ -20,6 +21,7 @@ function App() {
   /* 🎈 Aqui estamos retornando o conteúdo do nosso aplicativo, o que vai exibir */
   return (
     <>
+    <Header/>
     <main className="elementosCartas">
       <section className="blocoCartas">
         {/* 🎈 Aqui estamos chamando o componente "Perfil" e passando as informações de cada pessoa */}
