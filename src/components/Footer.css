@@ -15,7 +15,7 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     background-color: #F1E8BD;
     padding: 1em;
     display: flex;
-    justify-content: space-around; /* Separar  os blocos */   
+    justify-content: center; /* Separar  os blocos */   
     height: 14vh;
 }
 
@@ -23,7 +23,6 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     width: 18vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -31,8 +30,9 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     display: flex;
     width: 45vw;
     align-items: center;
+    text-align: center;
     flex-direction: row;
-    padding-left: 18em; 
+    padding-left: 15em; 
     font-size: 1.1rem;
 }
 
@@ -40,7 +40,8 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
+    gap: 0.5em; 
 }
 
 .bloco-img2{
@@ -48,15 +49,18 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-right: 6.2em  
+    padding-right: 6.2em;
+    gap: 1.1em;  
 }
 
 .email{
-    font-size: 1.1em;
+    font-size: 1.2em;
+    padding-left: 1em;
 }
 
 .instagram{
-    font-size: 1.1em;
+    font-size: 1.2em;
+    padding-left: 1.3em;
 }
 
 img{
