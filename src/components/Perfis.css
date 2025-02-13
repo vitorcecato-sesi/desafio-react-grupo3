@@ -1,0 +1,35 @@
+.blocoPerfil {
+    background-color: #CEE741;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 1vw;
+}
+
+.blocoTextos {
+display: flex;
+flex-direction: column;
+background-color: #F2E5B8;
+width: 15vw;
+height: 10vw;
+text-align: center;
+border-top-right-radius: 1vw;
+border-bottom-right-radius: 1vw;
+}
+
+.fotoPerfil {
+    width: 10vw;
+    height: 10vw;
+    background-color: #B66E3F;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+}
+
+.nome {
+    font-size: 1.5em;
+}
+
+.hobbies {
+    font-size: 1 em;
+}
