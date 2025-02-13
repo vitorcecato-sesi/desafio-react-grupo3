@@ -69,7 +69,7 @@ function App() {
           />
         </section>
         </main>
-        <Valores  valor1="Valores" valor2="Barigandandadnanda" valor3="babababab"/>
+        <Valores  valor1="União" valor2="Honestidade" valor3="Comprometimento"/>
       </section>
       
     </>
