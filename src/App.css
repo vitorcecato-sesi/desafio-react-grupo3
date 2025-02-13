@@ -10,22 +10,27 @@
 }
 
 .meioPagina {
+  /* FlexBox */
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .elementosCartas {
+  /* FlexBox */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+
+  /* Medidas */
   width: 80vw;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 .blocoCartas {
+  /* FlexBox */
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -34,10 +39,12 @@
 @media screen and (max-width: 1000px)  {
 
   .elementosCartas {
+    /* FlexBox */
     display: flex;
     flex-direction: column;
   }
   .blocoCartas {
+    /* Medidas */
    padding-bottom: 2em;
   }
 }
