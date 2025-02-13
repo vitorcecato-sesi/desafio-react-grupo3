@@ -7,9 +7,10 @@
 .Header{
     display: flex;
     background-color: #CEE741;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
     color: #442b19;
+    padding-left: 15em;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1 {
     height: 18vh;
     filter: drop-shadow(0px 0px 12px rgb(85, 85, 85));
     transition: all 1s ease;
+    padding-left: 15em;
 }
 
 .imagem:hover {
