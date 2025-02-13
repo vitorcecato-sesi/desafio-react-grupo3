@@ -82,3 +82,15 @@ p:hover{
     padding-left: 8em;
     padding: 5px 0px 0px 5px; /*Especura da 'borda' atráz da logo'*/
 }
+
+@media screen and (max-width: 1000px)  {
+
+    .bloco-img1{
+        padding-left: 2em;
+    }
+    
+    .bloco-img2{
+        padding-left: 2em;
+    }
+    
+  }

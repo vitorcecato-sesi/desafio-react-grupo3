@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="Header"> 
             <h1> DESAFIO 1 de PROPS - REACT </h1>
-            <img src={logoG3} />
+            <img id="imagem" src={logoG3} />
         </header>
     )
 }

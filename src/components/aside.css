@@ -28,3 +28,11 @@ h1{
   padding: 1em;
   text-align: center;
 }
+
+@media screen and (max-width: 1000px)  {
+
+  .lado{
+    width: 20vw;
+    margin-right: 2vw;
+  }
+}
